@@ -1,0 +1,43 @@
+1. Tester's Responsibility - From My Understanding
+
+A Tester is not just finding bugs. He is responsible for the *Quality* of the product.
+
+*Main Responsibilities:*
+
+- *Understand Requirements:* First, we need to fully understand what the client wants from the Requirement documents.
+- *Test Planning & Case Writing:* Create Test Scenarios and Test Cases based on requirements. Cover both positive and negative cases.
+- *Execute Testing:* Run the test cases manually, find bugs, and report them clearly with steps, screenshots, and severity.
+- *Bug Reporting & Retesting:* Log bugs in tools like JIRA. After developers fix it, retest it and close it.
+- *Regression Testing:* Ensure that new fixes didn't break old working features.
+- *Communication:* Talk with Developers, BA, and Clients to clarify doubts. Attend daily standup meetings.
+- *Documentation:* Maintain test reports, test results, and ensure traceability.
+
+> In one line: *Tester is the Gatekeeper of Quality. Our job is to ensure the customer gets a bug-free product.*
+
+### 2. STLC Process - Software Testing Life Cycle
+
+STLC is the step-by-step process followed for testing. It has 6 phases:
+
+*Phase 1: Requirement Analysis*
+What to do: Understand requirements, find what is testable. Clarify doubts with BA/Client.
+Outcome: RTM (Requirement Traceability Matrix)
+
+*Phase 2: Test Planning*
+What to do: Senior QA will create a Test Plan. Decide what to test, who will test, timeline, tools, risk.
+Outcome: Test Plan Document, Effort Estimation
+
+*Phase 3: Test Case Development*
+What to do: Write detailed Test Cases, Test Data, and Test Scripts. Get them reviewed by TL/BA.
+Outcome: Test Cases, Test Data
+
+*Phase 4: Environment Setup*
+What to do: Setup the test environment - like server, database, browser. It's like a real customer environment.
+Outcome: Ready Test Environment
+
+*Phase 5: Test Execution*
+What to do: Run the test cases we wrote. If it passes, mark as Pass. If it fails, report a Bug. Retest and do Regression.
+Outcome: Test Execution Report, Bug Reports
+
+*Phase 6: Test Closure*
+What to do: After testing is finished, we prepare Test Summary Report, check what was tested, what bugs are open, lessons learned.
+Outcome: Test Closure Report, Test Summary
